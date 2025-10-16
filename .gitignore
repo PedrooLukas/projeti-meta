@@ -1,0 +1,62 @@
+# ------------------------------
+# Node & package managers
+# ------------------------------
+node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Yarn Berry (Plug'n'Play)
+# ------------------------------
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ------------------------------
+# Build e saída
+# ------------------------------
+dist/
+build/
+.next/
+out/
+
+# ------------------------------
+# Testes
+# ------------------------------
+coverage/
+
+# ------------------------------
+# Variáveis de ambiente
+# ------------------------------
+.env
+.env.*
+.env.local
+.env.*.local
+
+# ------------------------------
+# Arquivos de sistema
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Certificados e chaves
+# ------------------------------
+*.pem
+
+# ------------------------------
+# TypeScript
+# ------------------------------
+*.tsbuildinfo
+next-env.d.ts
+
+# ------------------------------
+# Plataformas de Deploy
+# ------------------------------
+.vercel
